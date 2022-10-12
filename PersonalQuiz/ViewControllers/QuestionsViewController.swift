@@ -2,7 +2,7 @@
 //  QuestionsViewController.swift
 //  PersonalQuiz
 //
-//  Created by Alexey Efimov on 03.10.2022.
+//  Created by hiirari on 03.10.2022.
 //
 
 import UIKit
@@ -44,7 +44,7 @@ class QuestionsViewController: UIViewController {
         guard let resultVC = segue.destination as? ResultViewController else {
             return
         }
-        resultVC.answerChosen = answersChosen
+        resultVC.answersChosen = answersChosen
     }
 
     @IBAction func singleAnswerButtonPressed(_ sender: UIButton) {
